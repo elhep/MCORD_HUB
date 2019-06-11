@@ -106,40 +106,6 @@ GenerateClassCluster=0
 DocumentUniqueId=JOBWRBKT
 
 [Document5]
-DocumentPath=Ethernet_CTRL.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PQDUGOWT
-
-[Document6]
-DocumentPath=W5500.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=5
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ZFVWBOHE
-
-[Document7]
 DocumentPath=PoE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KWXFKWIF
 
-[Document8]
+[Document6]
 DocumentPath=MCORD_Hub.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document7]
 DocumentPath=CPU_STM32H7.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HQSJBCHR
 
-[Document10]
+[Document8]
 DocumentPath=RMII_Ethernet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EMNJOPAV
 
-[Document11]
+[Document9]
 DocumentPath=USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -223,6 +189,10 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PGQYYCTD
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for MCORD_Hub\Design Rule Check - MCORD_Hub.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -346,7 +316,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-J315W Printer (Copy 1)
+TargetPrinter=Bullzip PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -820,6 +790,16 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
